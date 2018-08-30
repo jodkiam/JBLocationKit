@@ -12,7 +12,7 @@
 		D15A1E022137931400A00351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15A1E002137931400A00351 /* Main.storyboard */; };
 		D15A1E042137931700A00351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15A1E032137931700A00351 /* Assets.xcassets */; };
 		D15A1E072137931700A00351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15A1E052137931700A00351 /* LaunchScreen.storyboard */; };
-		D15A1E0F2137937300A00351 /* city.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D15A1E0E2137937300A00351 /* city.gpx */; };
+		D15A1E0F2137937300A00351 /* location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D15A1E0E2137937300A00351 /* location.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		D15A1E032137931700A00351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15A1E062137931700A00351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D15A1E082137931700A00351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D15A1E0E2137937300A00351 /* city.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = city.gpx; sourceTree = "<group>"; };
+		D15A1E0E2137937300A00351 /* location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		D15A1DFB2137931400A00351 /* JBLocationKit */ = {
 			isa = PBXGroup;
 			children = (
-				D15A1E0E2137937300A00351 /* city.gpx */,
+				D15A1E0E2137937300A00351 /* location.gpx */,
 				D15A1DFC2137931400A00351 /* AppDelegate.swift */,
 				D15A1DFE2137931400A00351 /* ViewController.swift */,
 				D15A1E002137931400A00351 /* Main.storyboard */,
@@ -127,7 +127,7 @@
 			files = (
 				D15A1E072137931700A00351 /* LaunchScreen.storyboard in Resources */,
 				D15A1E042137931700A00351 /* Assets.xcassets in Resources */,
-				D15A1E0F2137937300A00351 /* city.gpx in Resources */,
+				D15A1E0F2137937300A00351 /* location.gpx in Resources */,
 				D15A1E022137931400A00351 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34P4SP8ZQ2;
 				INFOPLIST_FILE = JBLocationKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34P4SP8ZQ2;
 				INFOPLIST_FILE = JBLocationKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
